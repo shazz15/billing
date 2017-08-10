@@ -8,7 +8,11 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import com.cg.mobilebilling.customresponse.CustomResponse;
 import com.cg.mobilebilling.exceptions.CustomerDetailsNotFoundException;
 
+<<<<<<< HEAD
 @ControllerAdvice(basePackages={"com.cg.mobilebilling.controllers"})
+=======
+@ControllerAdvice(basePackages={"com.cg.mobilebilling.controller"})
+>>>>>>> branch 'master' of https://github.com/shazz15/billing.git
 public class MobileBillingServiceExceptionAspect {
 
 	@ExceptionHandler(CustomerDetailsNotFoundException.class)
